@@ -1,16 +1,14 @@
-### Hi there 👋
+<p align="center">
+  <img src="avatar.png" width="150" height="150" alt="creuser">
+</p>
+<h4 align="center">creuser</h4>
+<p align="center">
+  <a href="https://github.com/creuserr?tab=repositories">Repo</a>
+  &nbsp; &sdot; &nbsp;
+  <a href="https://gist.github.com/creuserr">Gist</a>
+</p>
 
-<!--
-**creuserr/creuserr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://github-stats-alpha.vercel.app/api?username=creuserr" alt="statistics"></img>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=creuserr" alt="streaks"></img>
+</p>
