@@ -1,7 +1,7 @@
 <p align="center"><a href="https://github.com/creuserr">
   <img src="avatar.png" width="150" height="150" alt="creuser">
 </a></p>
-<h4 align="center">creuser</h4>
+<h3 align="center">creuser</h3>
 <p align="center">
   <a href="https://github.com/creuserr?tab=repositories">Repo</a>
   &nbsp; &sdot; &nbsp;
