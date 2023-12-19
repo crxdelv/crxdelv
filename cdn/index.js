@@ -5,6 +5,8 @@ export default async function handler(request, response) {
   var url = `https://api.github.com/repos/${user}/${repo}/contents/${path}`;
   try {
     var req = await fetch(url);
+    return response.send(`Hello ${name}!`);
+  } catch(e) {
+    return response.status(400).send("Error: " ${e});
   }
-  return response.send(`Hello ${name}!`);
 }
