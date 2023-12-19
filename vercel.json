@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "cdn/index.js": {
+      "runtime": "vercel-nodejs@20.x"
+    }
+  },
+  "rewrites": [{
+    "sour"
+  }]
+}
