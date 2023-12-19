@@ -45,6 +45,9 @@
 <script>
   $("[data-tab]").click(function(evt) {
     var tab = $(evt.target).attr("data-tab");
+    $("[data-tab]").removeClass("active");
+    $(evt.target).addClass("active");
+    
   });
 </script>
 </html>
