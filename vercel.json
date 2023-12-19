@@ -1,6 +1,6 @@
 {
   "functions": {
-    "cdn/index.js": {
+    "api/index.js": {
       "runtime": "vercel-node@18.0.0"
     }
   },
@@ -9,6 +9,6 @@
     "destination": "/legal#:path*"
   }, {
     "source": "/cdn/:user/:repo/:path",
-    "destination": "/cdn/index.js"
+    "destination": "/api/index.js"
   }]
 }
