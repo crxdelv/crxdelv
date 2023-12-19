@@ -1,7 +1,7 @@
 export default async function(request) {
-  
-  var user = request.query.user;
-  var repo = request.query.repo;
+  var url = new URL(_req.url);
+  var user = url.searchParams.get("user");
+  var repo = url.searchParams.get("user");
   var path = request.query.path;
   if(user == null || repo == null || path == null) return new Response("Error: incomplete parameter");
   var url = `https://api.github.com/repos/${user}/${repo}/contents/${path}`;
