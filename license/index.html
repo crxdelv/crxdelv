@@ -41,6 +41,8 @@
 <script src="https://cdn.jsdelivr.net/gh/dlvdls18/Dage/src/dage.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script>
-  $(".nav-item")
+  $("[data-tab]").click(function(evt) {
+    var tab = $(evt.target).attr("data-tab");
+  });
 </script>
 </html>
