@@ -1,11 +1,14 @@
 {
   "functions": {
     "cdn/index.js": {
-      "runtime": "vercel-nodejs@20.x"
+      "runtime": "vercel-node@20.x"
     }
   },
   "rewrites": [{
     "source": "/legal/:path*",
     "destination": "/legal#:path*"
+  }, {
+    "source": "/cdn/:user/:repo/:path",
+    "destination"
   }]
 }
