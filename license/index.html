@@ -104,11 +104,13 @@
 <script>
   if(location.hash.length > 1) {
     var tabs = ["license", "privacy", "cookie"];
+    var titles = ["License", "Privacy Policy", "Cookie Policy"];
     var tab = location.hash.slice(1);
     if(tabs.includes(tab)) {
       $("[data-tab]").removeClass("active");
       $(`[data-tab="${tab}"]`).addClass("active");
       Dage.navigate(tab);
+      document.title = titles
     }
   }
   $("[data-tab]").click(function(evt) {
