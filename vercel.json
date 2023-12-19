@@ -1,7 +1,7 @@
 {
   "functions": {
     "cdn/index.js": {
-      "runtime": "vercel-node@1.0.0"
+      "runtime": "vercel-node@18.0.0"
     }
   },
   "rewrites": [{
