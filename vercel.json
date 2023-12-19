@@ -5,6 +5,7 @@
     }
   },
   "rewrites": [{
-    "sour"
+    "source": "/legal/:path*",
+    "destination": "/legal#:path"
   }]
 }
