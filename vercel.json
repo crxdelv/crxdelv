@@ -9,6 +9,6 @@
     "destination": "/legal#:path*"
   }, {
     "source": "/cdn/:user/:repo/:path",
-    "destination"
+    "destination": "/cdn/index.js"
   }]
 }
