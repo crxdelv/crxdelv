@@ -8,7 +8,8 @@ export default async function(request) {
   try {
     var req = await fetch(url);
     var json = await req.json();
-    return new Response(unescape(atob(json.content)));
+    var content = unescape(atob(json.content));
+    return new Response(content);
   } catch(e) {
     return new Response(`Error: ${e}`);
   }
