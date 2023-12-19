@@ -48,7 +48,8 @@
     var tab = location.hash.slice(1);
     if(tabs.includes(tab)) {
       $("[data-tab]").removeClass("active");
-      $(`[data-tab="${tab"]`).addClass("active");
+      $(`[data-tab="${tab}"]`).addClass("active");
+      Dage.navigate(tab);
     }
   }
   $("[data-tab]").click(function(evt) {
