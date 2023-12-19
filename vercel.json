@@ -6,6 +6,6 @@
   },
   "rewrites": [{
     "source": "/legal/:path*",
-    "destination": "/legal/index.html#:path*"
+    "destination": "/legal#:path*"
   }]
 }
