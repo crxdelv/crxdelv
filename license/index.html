@@ -110,7 +110,7 @@
       $("[data-tab]").removeClass("active");
       $(`[data-tab="${tab}"]`).addClass("active");
       Dage.navigate(tab);
-      document.title = titles
+      document.title = titles[tabs.indexOf(tab)] + "&sdot; creuser";
     }
   }
   $("[data-tab]").click(function(evt) {
