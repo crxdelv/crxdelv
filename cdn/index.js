@@ -6,7 +6,7 @@ export default async function handler(request, response) {
   try {
     var req = await fetch(url);
     var json = await req.json();
-    return response.send(unescape(atob(json.conten)));
+    return response.send(unescape(atob(json.content)));
   } catch(e) {
     return response.status(400).send(`Error: ${e}`);
   }
