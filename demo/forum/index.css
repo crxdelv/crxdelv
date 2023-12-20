@@ -1,4 +1,4 @@
-*:not(.fas, .fa) {
+*:not(.fas) {
   font-family: "Rethink Sans" !important;
 }
 
