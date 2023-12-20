@@ -1,0 +1,9 @@
+.navbar {
+  background-color: rgba(31, 37, 46, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+}
+
+.main-title {
+  letter-spacing: 0.5px;
+}
