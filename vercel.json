@@ -1,14 +1,9 @@
 {
-  "functions": {
-    "api/index.js": {
-      "runtime": "vercel-node@3.0.0"
-    }
-  },
   "rewrites": [{
     "source": "/legal/:path*",
     "destination": "/legal#:path*"
   }, {
-    "source": "/cdn/:user/:repo/:path",
-    "destination": "/api/index.js"
+    "source": "/forum",
+    "destination": "/demo/forum/index.html"
   }]
 }
