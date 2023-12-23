@@ -2,8 +2,5 @@
   "rewrites": [{
     "source": "/legal/:path*",
     "destination": "/legal#:path*"
-  }, {
-    "source": "/forum",
-    "destination": "/demo/forum/index.html"
   }]
 }
