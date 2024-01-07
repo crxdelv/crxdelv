@@ -4,7 +4,7 @@
     "destination": "/legal#:path*"
   }],
   "functions": {
-    "static/dlv/upload.php": {
+    "api/static/dlv/upload.php": {
       "runtime": "vercel-php@0.6.0"
     }
   }
