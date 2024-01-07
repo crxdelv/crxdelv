@@ -2,5 +2,8 @@
   "rewrites": [{
     "source": "/legal/:path*",
     "destination": "/legal#:path*"
+  }],
+  "build": [{
+    
   }]
 }
