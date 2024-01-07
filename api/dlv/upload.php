@@ -7,7 +7,7 @@ $dbname = "if0_35696357_dlv";
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: text/plain');
 
-if (isset($_GET['process']) || $_GET['process'] != '1') {
+if (!isset($_GET['process']) || $_GET['process'] != '1') {
   die('400 Anti-inadvertent mode');
 }
 
