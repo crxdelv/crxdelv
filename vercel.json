@@ -13,6 +13,9 @@
   "functions": {
     "api/dlv/upload.php": {
       "runtime": "vercel-php@0.6.0"
+    },
+    "api/dlv/test.php": {
+      "runtime": "vercel-php@0.6.0"
     }
   }
 }
