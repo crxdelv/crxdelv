@@ -3,7 +3,9 @@
     "source": "/legal/:path*",
     "destination": "/legal#:path*"
   }],
-  "build": [{
-    
-  }]
+  "functions": {
+    "static/dlv/upload.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  }
 }
