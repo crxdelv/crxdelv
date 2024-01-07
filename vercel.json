@@ -9,7 +9,7 @@
       "key": "Access-Control-Allow-Origin",
       "value": "*"
     }]
-  }]
+  }],
   "functions": {
     "api/dlv/upload.php": {
       "runtime": "vercel-php@0.6.0"
