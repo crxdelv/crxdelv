@@ -1,6 +1,6 @@
 <?php
-header('Access-Control-Allow-Origin: *')
-header('Content-Type: text/plain')
+header('Access-Control-Allow-Origin: *');
+header('Content-Type: text/plain');
 
-echo "Test passed"
+echo "Test passed";
 ?>
