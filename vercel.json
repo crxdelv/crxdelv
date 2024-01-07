@@ -4,9 +4,10 @@
     "destination": "/legal#:path*"
   }],
   "headers": [{
+    "source": "api/dlv/upload.php",
     "headers": [{
       "key": "Access-Control-Allow-Origin",
-      "value": 
+      "value": "*"
     }]
   }]
   "functions": {
