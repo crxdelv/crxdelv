@@ -9,6 +9,12 @@
       "key": "Access-Control-Allow-Origin",
       "value": "*"
     }]
+  }, {
+    "source": "api/dlv/test.php",
+    "headers": [{
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    }]
   }],
   "functions": {
     "api/dlv/*.php": {
