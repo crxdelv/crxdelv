@@ -17,11 +17,11 @@ if ($conn->connect_error) {
   die("400 " . $conn->connect_error);
 }
 
-$id = $_GET['id'];
+$id = base64_decode($_GET['id']);
 $title = $_GET['title'];
 $description = $_GET['description'];
-$topics = $_GET['topics'];
-$date = $_GET['date'];
+$topics = base64_decode($_GET['topics']);
+$date = base64_decode($_GET['date']);
 
 $sql = "INSERT INTO blogs (id, title, description, topics, date) VALUES ('$id', '$title', '$description', '$topics', '$date')";
 
