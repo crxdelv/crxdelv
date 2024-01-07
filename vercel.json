@@ -4,8 +4,9 @@
     "destination": "/legal#:path*"
   }],
   "headers": [{
-    "api/dlv/upload.php": [{
-      
+    "headers": [{
+      "key": "Access-Control-Allow-Origin",
+      "value": 
     }]
   }]
   "functions": {
