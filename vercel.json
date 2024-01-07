@@ -3,6 +3,11 @@
     "source": "/legal/:path*",
     "destination": "/legal#:path*"
   }],
+  "headers": [{
+    "api/dlv/upload.php": [{
+      
+    }]
+  }]
   "functions": {
     "api/dlv/upload.php": {
       "runtime": "vercel-php@0.6.0"
