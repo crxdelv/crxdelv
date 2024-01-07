@@ -4,6 +4,8 @@ $username = "if0_35696357";
 $password = "OSrV2qOoC0";
 $dbname = "if0_35696357_dlv";
 
+header('')
+
 if ($_GET['process'] != '1') {
   die('400 Anti-inadvertent mode');
 }
