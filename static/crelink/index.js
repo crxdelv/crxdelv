@@ -3,9 +3,9 @@ module.exports = async function(req, res) {
   try {
     var links = await fetch("https://crestatic.vercel.app/creuserr/creuserr/static/crelink/data.json");
     links = await links.json();
-    var meta 
-    res.status(200).send("Redirecting...");
+    var meta = `<meta http-equiv="refresh" content="0; URL=${links[]}">`;
+    res.status(200).send("Redirecting..." + meta);
   } catch(e) {
-    res.status(400).send("Failed to connect");
+    res.status(400).send("Failed to connect.");
   }
 }
