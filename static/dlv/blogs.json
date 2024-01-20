@@ -3,5 +3,5 @@
   "id": "how-to-build-your-own-github-cdn",
   "date": "Jan 19, 2023",
   "topics": ["NodeJS"],
-  "description": "With just GitHub and Vercel, effortlessly create your own GitHub CDN using only two files &mdash; a simple and cost-free solution."
+  "description": "With just GitHub and Vercel, effortlessly create your own GitHub CDN using only two files &ndash; a simple and cost-free solution."
 }]
