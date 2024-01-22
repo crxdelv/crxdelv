@@ -3,7 +3,7 @@
 </a></p>
 <h3 align="center">creuser</h3>
 <p align="center">
-  <a href="https://dev.to/creuser">Blogs</a>
+  <a href="https://dev.to/creuserr">Blogs</a>
   &nbsp; &sdot; &nbsp;
   <a href="https://gist.github.com/creuserr">Gist</a>
 </p>
