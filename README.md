@@ -10,19 +10,33 @@
   &nbsp; &sdot; &nbsp;
   <a href="https://creuserr.vercel.app/feed">RSS Feed</a>
   &nbsp; &sdot; &nbsp;
-  <a href="https://gist.github.com/creuserr">Gist</a>
+  <a href="https://gist.github.com/creuserr">Gists</a>
 </p>
 <p align="center"><a href="https://github.com/creuserr">
   <img src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true" alt="statistics"></img>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=creuserr" alt="streaks"></img>
 </a></p>
-<p align="center"><img src="https://skillicons.dev/icons?i=js,py"> &nbsp; &nbsp; <img src="https://skillicons.dev/icons?i=github,vercel"></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=nodejs,py,java,php,bash,regex,html,css,js,lua,c,mysql&perline=6"></p>
 
-### Currently Learning
-Typescript *(Bun-powered)*, Rust, Go, GraphQL
+### Currently Learning:
+
+**Concepts:**
+- [ ] Kotlin-based android packages
+- [ ] Advanced database structures
+- [x] Non-text responsive APIs
+- [ ] Neural networks
+
+**Languages:**
+
+![](https://skillicons.dev/icons?i=bun,swift,rust,go,react,deno,graphql)
 
 ### Currently Using
 Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
+
+**IDE:** *(secret)* <br>
+**CI/CD:** Replit, Github <br>
+**Backend:** Firebase <br>
+**Forum:** StackOverflow 
 
 ### Currently Doing
 **Serverless NodeJS functions:** Dynamic plain text generator, Web crawlers
