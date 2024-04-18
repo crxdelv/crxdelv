@@ -21,7 +21,8 @@ const git = {
         link: repo.url,
         title: repo.full_name,
         date: repo.updated_at,
-        desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description)
+        desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
+        img: `https://open-image-delta.vercel.app/open-image.js?text=${repo.name}`
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
