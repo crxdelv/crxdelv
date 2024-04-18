@@ -5,6 +5,8 @@
 <p align="center">
   <a href="https://dev.to/creuserr">Blogs</a>
   &nbsp; &sdot; &nbsp;
+  <a href="https://creuserr.vercel.app/feed">RSS Feed</a>
+  &nbsp; &sdot; &nbsp;
   <a href="https://gist.github.com/creuserr">Gist</a>
 </p>
 
