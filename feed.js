@@ -8,7 +8,7 @@ const rss = {
   },
   item({ title, link, desc, date, img }) {
     const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
-    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate></item>`
+    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate>${thumb}</item>`
   }
 }
 
@@ -51,7 +51,7 @@ module.exports = async (req, res) => {
   res.statusCode = 200
   try {
     const f = await git.all()
-    res.end(rss.write(f.map(x => rss.item(x))))
+    res.end(rss.write(f.map(x => rss.item(x)).join("")))
   } catch(e) {
     res.end(rss.write(rss.item({
       date: new Date().toString(),
