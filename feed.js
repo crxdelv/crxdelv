@@ -22,7 +22,7 @@ const git = {
         date: repo.updated_at,
         desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description)
       }
-    }).sort((a, b) => new Date(a).getTime() - new Date(b).getTime())
+    }).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
   },
   async gist() {
     const req = await fetch("https://creprox.vercel.app/https:/api.github.com/users/creuserr/gists")
@@ -34,12 +34,12 @@ const git = {
         date: gist.updated_at,
         desc: "@creuserr posted a new gist" + (gist.description == null ? "" : " | " + gist.description)
       }
-    }).sort((a, b) => new Date(a).getTime() - new Date(b).getTime())
+    }).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
   },
   async all() {
     const repo = await this.repo()
     const gist = await this.gist()
-    return repo.concat(gist).sort((a, b) => new Date(a).getTime() - new Date(b).getTime())
+    return repo.concat(gist).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
   }
 }
 
