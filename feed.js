@@ -6,9 +6,8 @@ const rss = {
     const suffix = `</channel></rss>`
     return prefix + content + suffix
   },
-  item({ title, link, desc, date, img }) {
-    const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
-    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate>${thumb}</item>`
+  item({ title, link, desc, date }) {
+    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate></item>`
   }
 }
 
@@ -21,27 +20,27 @@ const git = {
         link: repo.url,
         title: repo.full_name,
         date: repo.updated_at,
-        desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
-        img: `https://github-readme-stats.vercel.app/api/pin/?username=creuserr&amp;repo=${repo.name}`
+        desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description)
       }
-    }).sort((a, b) => new Date(a).getMilliseconds() - new Date(b).getMilliseconds())
+    }).sort((a, b) => new Date(a).getTime() - new Date(b).getTime())
   },
   async gist() {
     const req = await fetch("https://creprox.vercel.app/https:/api.github.com/users/creuserr/gists")
     const raw = await req.json()
     return raw.map(gist => {
+      let title = null
+      for(let file in gist.files) if(title != null) title = file
       return {
-        link: gist.url,
-        title: Object.keys(gist.files).join(" \u2022 "),
+        link: gist.url, title,
         date: gist.updated_at,
         desc: "@creuserr posted a new gist" + (gist.description == null ? "" : " | " + gist.description)
       }
-    }).sort((a, b) => new Date(a).getMilliseconds() - new Date(b).getMilliseconds())
+    }).sort((a, b) => new Date(a).getTime() - new Date(b).getTime())
   },
   async all() {
     const repo = await this.repo()
     const gist = await this.gist()
-    return repo.concat(gist).sort((a, b) => new Date(a).getMilliseconds() - new Date(b).getMilliseconds())
+    return repo.concat(gist).sort((a, b) => new Date(a).getTime() - new Date(b).getTime())
   }
 }
 
