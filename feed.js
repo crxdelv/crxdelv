@@ -22,7 +22,7 @@ const git = {
         title: repo.full_name,
         date: repo.updated_at,
         desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
-        img: encodeURIComponent(`https://open-image-delta.vercel.app/open-image.js?text=${repo.name}`)
+        img: `https://open-image-delta.vercel.app/open-image.js?text=${repo.name}`
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
