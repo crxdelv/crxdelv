@@ -49,4 +49,10 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 
 **Web applications:** Websites, VanillaJS libraries
 
-<br><p align="center"><img src="https://img.shields.io/badge/i_fucking_hate-cors-coral?style=for-the-badge" alt=""></p>
+<br>
+
+> [!NOTE]
+> Compiled codebases are not desired for me at the moment, due to the lack of workspace.
+> Nevertheless, I can still deploy serverless functions *limited to python, php, and nodejs.*
+
+<p align="center"><img src="https://img.shields.io/badge/i_fucking_hate-cors-coral?style=for-the-badge" alt=""></p>
