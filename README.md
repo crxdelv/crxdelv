@@ -18,7 +18,7 @@
 </a></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=nodejs,py,java,php,bash,regex,html,css,js,lua,c,mysql&perline=6"></p>
 
-### Currently Learning:
+### :beginner: Currently Learning:
 
 **Concepts:**
 - [ ] Kotlin-based android packages
@@ -30,15 +30,15 @@
 
 ![](https://skillicons.dev/icons?i=bun,swift,rust,go,react,deno,graphql)
 
-### Currently Using
+### :beginner: Currently Using
 Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 
-**IDE:** *(secret)* <br>
+**IDE:** Code Editor *by rhythm software*<br>
 **CI/CD:** Replit, Github <br>
 **Backend:** Firebase <br>
 **Forum:** StackOverflow 
 
-### Currently Doing
+### :beginner: Currently Doing
 **Serverless NodeJS functions:** Dynamic plain text generator, Web crawlers
 
 **Web applications:** Websites, VanillaJS libraries
