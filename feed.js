@@ -6,8 +6,9 @@ const rss = {
     const suffix = `</channel></rss>`
     return prefix + content + suffix
   },
-  item({ title, link, desc, date }) {
-    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate></item>`
+  item({ title, link, desc, date, img }) {
+    const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
+    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate>${thumb}</item>`
   }
 }
 
@@ -20,7 +21,8 @@ const git = {
         link: repo.url,
         title: repo.full_name,
         date: repo.updated_at,
-        desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description)
+        desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
+        img: `https://github-readme-stats.vercel.app/api/pin/?username=creuserr&repo=${repo.name}`
       }
     }).sort((a, b) => new Date(a).getMilliseconds() - new Date(b).getMilliseconds())
   },
