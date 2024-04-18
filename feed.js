@@ -22,7 +22,7 @@ const git = {
         title: repo.full_name,
         date: repo.updated_at,
         desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
-        img: `https://github-readme-stats.vercel.app/api/pin/&quest;username&equals;creuserr&amp;repo&equals;${repo.name}`
+        img: `https://github-readme-stats.vercel.app/api/pin/?username&equals;creuserr&amp;repo&equals;${repo.name}`
       }
     }).sort((a, b) => new Date(a).getMilliseconds() - new Date(b).getMilliseconds())
   },
