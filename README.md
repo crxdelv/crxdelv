@@ -4,7 +4,11 @@
 <h3 align="center">creuser</h3> -->
 
 <h3 align="center">Delve Delos Santos Jr.</h3>
+
 <p align="center">Future full-stack web developer :man_technologist:</p>
+
+<p align="center"><a href="https://github.com/creuserr/?tab=repositories"><img src="https://creuserr.vercel.app/badge" alt=""></a></p><br>
+
 <p align="center">
   <a href="https://dev.to/creuserr">Blogs</a>
   &nbsp; &sdot; &nbsp;
@@ -12,10 +16,12 @@
   &nbsp; &sdot; &nbsp;
   <a href="https://gist.github.com/creuserr">Gists</a>
 </p>
+
 <p align="center"><a href="https://github.com/creuserr">
   <img src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true" alt="statistics"></img>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=creuserr" alt="streaks"></img>
 </a></p>
+
 <p align="center"><img src="https://skillicons.dev/icons?i=nodejs,py,java,php,bash,regex,html,css,js,lua,c,mysql&perline=6"></p>
 
 ### :beginner: Currently Learning:
@@ -42,3 +48,5 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 **Serverless NodeJS functions:** Dynamic plain text generator, Web crawlers
 
 **Web applications:** Websites, VanillaJS libraries
+
+<br><p align="center"><img src="https://img.shields.io/badge/i_fucking_hate-cors-coral?style=for-the-badge" alt=""></p>
