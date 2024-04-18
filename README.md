@@ -29,7 +29,7 @@
 **Concepts:**
 - [ ] Kotlin-based android packages
 - [ ] Advanced database structures
-- [x] Non-text responsive APIs
+- [x] Non-textual responsive APIs
 - [ ] Neural networks
 
 **Languages:**
