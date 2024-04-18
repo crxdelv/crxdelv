@@ -28,10 +28,9 @@ const git = {
     const req = await fetch("https://creprox.vercel.app/https:/api.github.com/users/creuserr/gists")
     const raw = await req.json()
     return raw.map(gist => {
-      let title = null
-      for(let file in gist.files) if(title != null) title = file
       return {
-        link: gist.url, title,
+        link: gist.url,
+        title: Object.keys(gist.files).join(" \u2022 "),
         date: gist.updated_at,
         desc: "@creuserr posted a new gist" + (gist.description == null ? "" : " | " + gist.description)
       }
