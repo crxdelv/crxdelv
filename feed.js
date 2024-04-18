@@ -18,7 +18,7 @@ const git = {
     const raw = await req.json()
     return raw.map(repo => {
       return {
-        link: repo.url,
+        link: repo.html_url,
         title: repo.full_name,
         date: repo.updated_at,
         desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
