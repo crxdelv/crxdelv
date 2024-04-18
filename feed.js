@@ -24,7 +24,7 @@ const git = {
         date: repo.updated_at,
         desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
         img: `https://og-theta.vercel.app/api/general?siteName=${encodeURIComponent(repo.full_name)}&amp;description=${encodeURIComponent(repo.description || "@creuserr created a new repository")}&amp;theme=dark&amp;logo=https://crebin.vercel.app/static/avatar.png&amp;logoWidth=120`,
-        stars: repo.stargazers_count
+        stars: repo.stargazers_count > 0 ? repo.stargazers_count : null
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
