@@ -8,7 +8,7 @@ const rss = {
   },
   item({ title, link, desc, date, img, stars }) {
     const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
-    const categ = stars == null ? "" : `<category>${stars} star${stars > 1 ? "s" : ""}</category>`
+    const categ = stars == null && stars > 1 ? "" : `<category>${stars} &#9733;</category>`
     return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate>${thumb + categ}</item>`
   }
 }
@@ -24,7 +24,7 @@ const git = {
         date: repo.updated_at,
         desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
         img: `https://og-theta.vercel.app/api/general?siteName=${encodeURIComponent(repo.full_name)}&amp;description=${encodeURIComponent(repo.description || "@creuserr created a new repository")}&amp;theme=dark&amp;logo=https://crebin.vercel.app/static/avatar.png&amp;logoWidth=120`,
-        stars: repo.stargazers_count > 0 ? repo.stargazers_count : null
+        stars: repo.stargazers_count
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
