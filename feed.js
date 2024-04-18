@@ -22,7 +22,7 @@ const git = {
         link: repo.url,
         title: repo.full_name,
         date: repo.updated_at, desc,
-        img: `/api/general?siteName=${encodeURI(repo.full_name)}&amp;description=${encodeURI(desc)}&amp;theme=light&amp;logo=https://crebin.vercel.app/static/avatar.png&amp;logoWidth=120`
+        img: `https://og-tetha.vercel.app/api/general?siteName=${encodeURI(repo.full_name)}&amp;description=${encodeURI(desc)}&amp;theme=light&amp;logo=https://crebin.vercel.app/static/avatar.png&amp;logoWidth=120`
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
