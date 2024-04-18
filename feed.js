@@ -9,7 +9,7 @@ const rss = {
   item({ title, link, desc, date, img, stars }) {
     const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
     const categ = stars == null ? "" : `<category>${stars} stars</category>`
-    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate>${thumb}${categ}</item>`
+    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate>${thumb + categ}</item>`
   }
 }
 
