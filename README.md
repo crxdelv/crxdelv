@@ -55,4 +55,4 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 > Compiled codebases are not desired for me at the moment, due to the lack of workspace.
 > Nevertheless, I can still deploy serverless functions *limited to python, php, and nodejs.*
 
-<p align="center"><img src="https://img.shields.io/badge/i_fucking_hate-cors-coral?style=for-the-badge" alt=""></p>
+<p align="center"><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"><img src="https://img.shields.io/badge/i_fucking_hate-cors-coral?style=for-the-badge" alt=""></a></p>
