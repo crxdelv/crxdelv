@@ -17,12 +17,12 @@ const git = {
     const req = await fetch("https://creprox.vercel.app/https:/api.github.com/users/creuserr/repos")
     const raw = await req.json()
     return raw.map(repo => {
-      const desc = "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description)
       return {
         link: repo.url,
         title: repo.full_name,
-        date: repo.updated_at, desc,
-        img: `https://og-tetha.vercel.app/api/general?siteName=${encodeURI(repo.full_name)}&amp;description=${encodeURI(desc)}&amp;theme=light&amp;logo=https://crebin.vercel.app/static/avatar.png&amp;logoWidth=120`
+        date: repo.updated_at,
+        desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
+        img: `https://og-theta.vercel.app/api/general?siteName=${encodeURIComponent(repo.full_name)}&amp;description=${encodeURIComponent(repo.description || "@creuserr created a new repository")}&amp;theme=dark&amp;logo=https://crebin.vercel.app/static/avatar.png&amp;logoWidth=120`
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
