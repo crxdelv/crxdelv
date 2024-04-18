@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "builds": [{
+    "src": "feed.js",
+    "use": "@vercel/node"
+  }],
+  "rewrites": [{
+    "source": "/feed",
+    "destination": "feed.js"
+  }],
+  "headers": [{
+    "source": "feed.js",
+    "headers": [{
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    }]
+  }]
+}
