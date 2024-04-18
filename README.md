@@ -18,8 +18,8 @@
 </p>
 
 <p align="center"><a href="https://github.com/creuserr">
-  <img src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true" alt="statistics"></img>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=creuserr" alt="streaks"></img>
+  <img src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true" alt="statistics">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=creuserr" alt="streaks">
 </a></p>
 
 <p align="center"><img src="https://skillicons.dev/icons?i=nodejs,py,java,php,bash,regex,html,css,js,lua,c,mysql&perline=6"></p>
