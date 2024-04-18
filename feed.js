@@ -6,7 +6,8 @@ const rss = {
     const suffix = `</channel></rss>`
     return prefix + content + suffix
   },
-  item({ title, link, desc, date }) {
+  item({ title, link, desc, date, img }) {
+    const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
     return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate></item>`
   }
 }
