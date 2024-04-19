@@ -22,7 +22,7 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=creuserr" alt="streaks">
 </a></p>
 
-<p align="center"><img src="https://skillicons.dev/icons?i=nodejs,py,java,php,bash,regex,html,css,js,lua,c,mysql&perline=6"></p>
+<p align="center"><a href="https://github.com/creuserr"><img src="https://skillicons.dev/icons?i=nodejs,py,java,php,bash,regex,html,css,js,lua,c,mysql&perline=6"></a></p>
 
 ### :beginner: Currently Learning:
 
@@ -35,7 +35,7 @@
 
 **Languages:**
 
-![](https://skillicons.dev/icons?i=bun,swift,rust,go,react,deno,graphql)
+<a href="https://github.com/creuserr"><img src="https://skillicons.dev/icons?i=bun,swift,rust,go,react,deno,graphql" alt=""></a>
 
 ### :beginner: Currently Using
 Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
