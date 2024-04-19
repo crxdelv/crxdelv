@@ -40,7 +40,7 @@
 Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 
 **IDE:** Code Editor *by rhythm software*<br>
-**CI/CD:** Replit, Github <br>
+**CI/CD:** Github, Vercel <br>
 **Backend:** Firebase <br>
 **Forum:** StackOverflow 
 
