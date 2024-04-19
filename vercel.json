@@ -2,27 +2,27 @@
   "version": 2,
   "cleanUrls": true,
   "builds": [{
-    "src": "feed.js",
+    "src": "api/feed.js",
     "use": "@vercel/node"
   }, {
-    "src": "badge.js",
+    "src": "api/badge.js",
     "use": "@vercel/node"
   }],
   "rewrites": [{
     "source": "/feed",
-    "destination": "feed.js"
+    "destination": "api/feed.js"
   }, {
     "source": "/badge",
-    "destination": "badge.js"
+    "destination": "api/badge.js"
   }],
   "headers": [{
-    "source": "feed.js",
+    "source": "api/feed.js",
     "headers": [{
       "key": "Access-Control-Allow-Origin",
       "value": "*"
     }]
   }, {
-    "source": "badge.js",
+    "source": "api/badge.js",
     "headers": [{
       "key": "Access-Control-Allow-Origin",
       "value": "*"
