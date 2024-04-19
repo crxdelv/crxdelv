@@ -1,8 +1,8 @@
 const rss = {
-  write(content) {
+  write(content, latency) {
     const title = "cre's feed"
     const desc = "cre's github updates (@creuserr)"
-    const prefix = `<?xml version="1.0" encoding="UTF-8" ?>\n<!--\n\tDynamically generated.\n\tRaw file at: https://github.com/creuserr/creuserr/blob/main/api/feed.js\n-->\n<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title><![CDATA[ ${title} ]]></title><link>https://github.com/creuserr</link><description><![CDATA[ ${desc} ]]></description>`
+    const prefix = `<?xml version="1.0" encoding="UTF-8" ?>\n<!--\n\s\sDynamically generated with latency of ${latency}ms\n\s\sRaw file at: https://github.com/creuserr/creuserr/blob/main/api/feed.js\n-->\n<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title><![CDATA[ ${title} ]]></title><link>https://github.com/creuserr</link><description><![CDATA[ ${desc} ]]></description>`
     const suffix = `</channel></rss>`
     return prefix + content + suffix
   },
@@ -52,8 +52,9 @@ module.exports = async (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*")
   res.statusCode = 200
   try {
+    const latency = performance.now()
     const f = await git.all()
-    res.end(rss.write(f.map(x => rss.item(x)).join("")))
+    res.end(rss.write(f.map(x => rss.item(x)).join(""), performance.now() - latency))
   } catch(e) {
     res.end(rss.write(rss.item({
       date: new Date().toString(),
