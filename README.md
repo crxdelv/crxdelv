@@ -30,6 +30,7 @@
 - [ ] Kotlin-based android packages
 - [ ] Advanced database structures
 - [x] Non-textual responsive APIs
+- [ ] Containers (docker)
 - [ ] Neural networks
 
 **Languages:**
