@@ -1,7 +1,6 @@
-<!-- <p align="center"><a href="https://github.com/creuserr">
-  <img src="avatar.png" width="150" height="150" alt="creuser">
-</a></p>
-<h3 align="center">creuser</h3> -->
+<h4 align="center">New!</h4>
+<a href="https://bit.ly/my-ttpd-song"><img href="https://cdn.jsdelivr.net/gh/creuserr/my-ttpd-song/media/banner.svg" alt="The Tortured Poets Department"></a>
+<br><br>
 
 <h3 align="center">Delve Delos Santos Jr.</h3>
 
