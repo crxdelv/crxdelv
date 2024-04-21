@@ -27,7 +27,7 @@
 ### :beginner: Currently Learning:
 
 **Concepts:**
-- [ ] Kotlin-based android packages
+- [ ] Kotlin-powered applications
 - [ ] Advanced database structures
 - [x] Non-textual responsive APIs
 - [ ] Containers (docker)
