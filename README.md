@@ -35,7 +35,7 @@
 
 **Languages:**
 
-<a href="https://github.com/creuserr"><img src="https://skillicons.dev/icons?i=bun,swift,rust,go,react,deno,graphql" alt=""></a>
+<a href="https://github.com/creuserr"><img src="https://skillicons.dev/icons?i=kotlin,swift,rust,go,react,deno,graphql" alt=""></a>
 
 ### :beginner: Currently Using
 Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
