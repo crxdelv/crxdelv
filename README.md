@@ -1,6 +1,5 @@
 <h4 align="center">New!</h4>
-<a href="https://bit.ly/my-ttpd-song"><img href="https://cdn.jsdelivr.net/gh/creuserr/my-ttpd-song/media/banner.svg" alt="The Tortured Poets Department"></a>
-<br><br>
+<p align="center"><a href="https://bit.ly/my-ttpd-song"><img href="https://cdn.jsdelivr.net/gh/creuserr/my-ttpd-song/media/banner.svg" alt="The Tortured Poets Department"></a></p><br>
 
 <h3 align="center">Delve Delos Santos Jr.</h3>
 
