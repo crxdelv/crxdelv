@@ -45,7 +45,7 @@ const git = {
     const req = await fetch("https://crestatic.vercel.app/creuserr/creblog/static/blogs.json")
     const raw = await req.json()
     return raw.map(blog => {
-      blog.img = `https://og-image-rest-generator.fly.dev/seo-banner?title=${encodeURI(blog.desc)}&author=creuserr&head=${encodeURI(blog.title)}&writer=${encodeURI(blog.date)}`.replaceAll("&", "&amp;")
+      blog.img = `https://og-image-rest-generator.fly.dev/seo-banner?title=${encodeURI(blog.short)}&author=creuserr&head=${encodeURI(blog.title)}&writer=${encodeURI(blog.date)}`.replaceAll("&", "&amp;")
       blog.desc = "@creuserr posted a new blog | " + blog.desc
       return blog
     })
