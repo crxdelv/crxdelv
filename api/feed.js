@@ -9,7 +9,7 @@ const rss = {
   item({ title, link, desc, date, img, stars, id }) {
     const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
     let categ = stars == null || stars < 2 ? "" : `<category>${stars} &#9733;</category>`
-    if(categ == "" && id != null) categ = `#${id}`
+    if(categ.length == 0 && id != null) categ = `Blog #${id}`
     return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate>${thumb + categ}</item>`
   }
 }
@@ -45,7 +45,7 @@ const git = {
     const req = await fetch("https://crestatic.vercel.app/creuserr/creblog/static/blogs.json")
     const raw = await req.json()
     return raw.map(blog => {
-      blog.img = `https://og-image-rest-generator.fly.dev/seo-banner?title=${encodeURI(blog.short)}&author=creuserr&head=${encodeURI(blog.title)}&writer=${encodeURI(blog.date)}`.replaceAll("&", "&amp;")
+      blog.img = `https://og-image-rest-generator.fly.dev/seo-banner?title=${encodeURI(blog.short)}&author=creuserr&head=${encodeURI(blog.title)}&writer=${encodeURI(blog.date)}&template=twitter`.replaceAll("&", "&amp;")
       blog.desc = "@creuserr posted a new blog | " + blog.desc
       return blog
     })
