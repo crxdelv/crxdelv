@@ -6,9 +6,10 @@ const rss = {
     const suffix = `</channel></rss>`
     return prefix + content + suffix
   },
-  item({ title, link, desc, date, img, stars }) {
+  item({ title, link, desc, date, img, stars, id }) {
     const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
-    const categ = stars == null || stars < 2 ? "" : `<category>${stars} &#9733;</category>`
+    let categ = stars == null || stars < 2 ? "" : `<category>${stars} &#9733;</category>`
+    if(categ == "" && id != null) categ = `#${id}`
     return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate>${thumb + categ}</item>`
   }
 }
@@ -40,10 +41,16 @@ const git = {
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
+  async blogs() {
+    const req = await fetch("https://crestatic.vercel.app/creuserr/creblog/static/blogs.json")
+    const raw = await req.json()
+    return raw
+  },
   async all() {
     const repo = await this.repo()
     const gist = await this.gist()
-    return repo.concat(gist).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    const blogs = await this.blogs()
+    return repo.concat(gist).concat(blogs).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   }
 }
 
