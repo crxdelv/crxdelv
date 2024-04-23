@@ -44,7 +44,10 @@ const git = {
   async blogs() {
     const req = await fetch("https://crestatic.vercel.app/creuserr/creblog/static/blogs.json")
     const raw = await req.json()
-    return raw
+    return raw.map(blog => {
+      blog.img = "https://og-image-rest-generator.fly.dev/seo-banner?" + encodeURIComponent(`title=${blog.title}&author=creuserr&head=Blog+#${blog.id}&writer=on+github`.replaceAll("&", "&amp;"))
+      return blog
+    })
   },
   async all() {
     const repo = await this.repo()
