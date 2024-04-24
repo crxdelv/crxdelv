@@ -46,7 +46,7 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 **Forum:** StackOverflow 
 
 ### :beginner: Currently Doing
-**Serverless NodeJS functions:** Dynamic plain text generator, Web crawlers
+**Serverless NodeJS functions:** Dynamic plain text generator, Web crawlers, RESTful APIs
 
 **Web applications:** Websites, VanillaJS libraries
 
