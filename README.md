@@ -7,7 +7,7 @@
 <h3 align="center">Upcoming Update! &starf;</h3>
 
 > ```
-> KHTML, like Gecko
+> (KHTML, like Gecko)
 > ```
 > Have any idea? <br>
 > Does it make your head **rotating**?
