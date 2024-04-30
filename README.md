@@ -9,7 +9,8 @@
 > ```
 > KHTML, like Gecko
 > ```
-> [Have any idea?](https://github.com/creuserr/rotation)
+> Have any idea? <br>
+> Does it make your head **rotating**?
 <br>
 
 <h2 align="center">Delve Delos Santos Jr.</h2>
