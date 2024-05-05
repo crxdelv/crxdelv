@@ -10,7 +10,8 @@ const rss = {
     const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
     let categ = stars == null || stars < 2 ? "" : `<category>${stars} &#9733;</category>`
     if(categ.length == 0 && id != null) categ = `<category>Blog #${id}</category>`
-    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description><pubDate>${date}</pubDate>${thumb + categ}</item>`
+    const pubdate = date == null ? "" : `<pubDate>${date}</pubDate>`
+    return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description>${pubdate + thumb + categ}</item>`
   }
 }
 
@@ -57,9 +58,8 @@ const git = {
     let populated = repo.concat(gist).concat(blogs).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     populated.unshift({
       link: "https://github.com/creuserr",
-      title: "@creuserr on github",
+      title: "@creuserr",
       desc: "15 | my projects about programming",
-      date: Date.now(),
       img: "https://avatars.githubusercontent.com/u/151720755?v=4"
     })
     return populated
