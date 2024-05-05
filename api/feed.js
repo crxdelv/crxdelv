@@ -62,6 +62,7 @@ const git = {
       date: Date.now(),
       img: "https://avatars.githubusercontent.com/u/151720755?v=4"
     })
+    return populated
   }
 }
 
