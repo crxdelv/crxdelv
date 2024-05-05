@@ -54,7 +54,14 @@ const git = {
     const repo = await this.repo()
     const gist = await this.gist()
     const blogs = await this.blogs()
-    return repo.concat(gist).concat(blogs).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    let populated = repo.concat(gist).concat(blogs).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    populated.unshift({
+      link: "https://github.com/creuserr",
+      title: "@creuserr on github",
+      desc: "15 | my projects about programming",
+      date: Date.now(),
+      img: "https://avatars.githubusercontent.com/u/151720755?v=4"
+    })
   }
 }
 
