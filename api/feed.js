@@ -2,12 +2,12 @@ const rss = {
   write(content, latency) {
     const title = "cre's feed"
     const desc = "cre's github updates (@creuserr)"
-    const prefix = `<?xml version="1.0" encoding="UTF-8" ?>\n<!--\n  Dynamically generated with the latency of ${latency}ms\n  Raw file at: https://github.com/creuserr/creuserr/blob/main/api/feed.js\n-->\n<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title><![CDATA[ ${title} ]]></title><link>https://github.com/creuserr</link><description><![CDATA[ ${desc} ]]></description>`
+    const prefix = `<?xml version="1.0" encoding="UTF-8" ?>\n<!--\n  Dynamically generated with the latency of ${latency}ms\n  Raw file at: https://github.com/creuserr/creuserr/blob/main/api/feed.js\n-->\n<rss><![CDATA[ ${title} ]]></title><link>https://github.com/creuserr</link><description><![CDATA[ ${desc} ]]></description>`
     const suffix = `</channel></rss>`
     return prefix + content + suffix
   },
   item({ title, link, desc, date, img, stars, id }) {
-    const thumb = img == null ? "" : `<media:content url="${img}" medium="image"></media:content><media:thumbnail url="${img}"></media:thumbnail>`
+    const thumb = img == null ? "" : `<enclosure url="${img}" length="0" type="image/png" />`
     let categ = stars == null || stars < 2 ? "" : `<category>${stars} &#9733;</category>`
     if(categ.length == 0 && id != null) categ = `<category>Blog #${id}</category>`
     const pubdate = date == null ? "" : `<pubDate>${date}</pubDate>`
