@@ -11,8 +11,9 @@
 
 <!-- Promotion date: May 9, 2024 -->
 > [!NOTE]
-> **You're probably here because of my skills...** <br>
-> [Click here](https://github.com/creuserr/?tab=repositories) or [here &lpar;old account&rpar;](https://github.com/dlvdls18/?tab=repositories) to view my projects. :wink:
+> You're probably here because of my skills...
+> 
+> [Click here](https://github.com/dlvdls18/DLEditor/blob/main/dl-editor.js) to view my favorite written code. :wink:
 
 <!-- Promotion date: April 21, 2024 to April 27, 2024; May 3, 2024 to May 4, 2024; May 9, 2024 -->
 
