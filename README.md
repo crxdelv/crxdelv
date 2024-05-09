@@ -13,7 +13,7 @@
 > [!NOTE]
 > You're probably here because of my skills...
 > 
-> [Click here](https://github.com/dlvdls18/DLEditor/blob/main/dl-editor.js) to view my favorite written code, and [click here](https://dev.to/creuserr/you-might-want-to-replace-cd-command-with-zoxide-a-smarter-and-trainable-cd-alternative-5b7o) to view my favorite blog. :wink:
+> [Click here (DLEditor)](https://github.com/dlvdls18/DLEditor/blob/main/dl-editor.js) and [here (Rotation)](https://github.com/creuserr/rotation/blob/main/dist/rotation.js) to view my favorite written codes. :wink:
 
 <!-- Promotion date: April 21, 2024 to April 27, 2024; May 3, 2024 to May 4, 2024; May 9, 2024 -->
 
