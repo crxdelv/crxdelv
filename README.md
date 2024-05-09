@@ -16,7 +16,7 @@
 
 <!-- Promotion date: May 9, 2024 -->
 > [!NOTE]
-> **You're probably here because of my skills...**
+> **You're probably here because of my skills...** <br>
 > [Click here](https://github.com/creuserr/?tab=repositories) to view my projects :wink:.
 
 <h2 align="center">Delve Delos Santos Jr.</h2>
