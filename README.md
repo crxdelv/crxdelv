@@ -13,7 +13,7 @@
 > [!NOTE]
 > You're probably here because of my skills...
 > 
-> [Click here (DLEditor)](https://github.com/dlvdls18/DLEditor/blob/main/dl-editor.js) and [here (Rotation)](https://github.com/creuserr/rotation/blob/main/dist/rotation.js) to view my favorite written codes. :wink:
+> [Click here](https://github.com/dlvdls18/DLEditor/blob/main/dl-editor.js) and [here](https://github.com/creuserr/rotation/blob/main/dist/rotation.js) to view my favorite written codes. :wink:
 
 <!-- Promotion date: April 21, 2024 to April 27, 2024; May 3, 2024 to May 4, 2024; May 9, 2024 -->
 
