@@ -61,7 +61,7 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 **IDE:** Code Editor *by rhythm software*<br>
 **CI/CD:** Github, Vercel <br>
 **Backend:** Firebase <br>
-**Forum:** ChatGPT, Google
+**Forum:** ChatGPT, MDN Web Docs
 
 ### :beginner: Currently Doing
 **Serverless NodeJS functions:** Dynamic plain text generator, Web crawlers, RESTful APIs
