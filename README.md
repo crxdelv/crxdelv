@@ -11,7 +11,7 @@
 
 <!-- Promotion date: May 9, 2024 -->
 > [!NOTE]
-> **You're probably here because of my skills...** <br>
+> **You're probably here because of my skills...**
 > [Click here](https://github.com/creuserr/?tab=repositories) to view my projects. :wink:
 
 <br>
