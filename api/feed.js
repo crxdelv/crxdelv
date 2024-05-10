@@ -2,7 +2,7 @@ const rss = {
   write(content, latency) {
     const title = "cre's feed"
     const desc = "cre's github updates (@creuserr)"
-    const prefix = `<?xml version="1.0" encoding="UTF-8" ?>\n<!--\n  Dynamically generated with the latency of ${latency}ms\n  Raw file at: https://github.com/creuserr/creuserr/blob/main/api/feed.js\n-->\n<rss><![CDATA[ ${title} ]]></title><link>https://github.com/creuserr</link><description><![CDATA[ ${desc} ]]></description>`
+    const prefix = `<?xml version="1.0" encoding="UTF-8" ?>\n<!--\n  Dynamically generated with the latency of ${latency}ms\n  Raw file at: https://github.com/creuserr/creuserr/blob/main/api/feed.js\n-->\n<rss><channel><title><![CDATA[ ${title} ]]></title><link>https://github.com/creuserr</link><description><![CDATA[ ${desc} ]]></description>`
     const suffix = `</channel></rss>`
     return prefix + content + suffix
   },
