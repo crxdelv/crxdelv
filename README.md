@@ -1,13 +1,11 @@
-<!-- Promotion date: April 30, 2024 to May 3, 2024; May 4, 2024 to May 6, 2024
-<h3 align="center">Upcoming Update! &starf;</h3>
+<!-- Promotion date: April 30, 2024 to May 3, 2024; May 4, 2024 to May 6, 2024; May 11, 2024 -->
+<h3 align="center">New Update! &starf;</h3>
 
 > ```
 > KHTML, like Gecko
 > ```
 > Have any idea? <br>
 > Does it make your head [rotating](https://github.com/creuserr/rotation)?
-
-<sub>&ast; Reissued promotion</sub><br><br> -->
 
 <!-- Promotion date: May 9, 2024 to May 10, 2024
 > [!NOTE]
