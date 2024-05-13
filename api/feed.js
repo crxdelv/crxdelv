@@ -42,8 +42,8 @@ const git = {
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
-  async blogs() {
-    const req = await fetch("https://crestatic.vercel.app/creuserr/creblog/static/blogs.json")
+  async updates() {
+    const req = await fetch("https://crestatic.vercel.app/creuserr/crestatus/static/blogs.json")
     const raw = await req.json()
     return raw.map(blog => {
       blog.img = `https://og-image-rest-generator.fly.dev/seo-banner?title=${encodeURI(blog.short)}&author=creuserr&head=${encodeURI(blog.title)}&writer=${encodeURI(blog.date)}`.replaceAll("&", "&amp;")
@@ -54,7 +54,7 @@ const git = {
   async all() {
     const repo = await this.repo()
     const gist = await this.gist()
-    const blogs = await this.blogs()
+    const blogs = await this.updates()
     let populated = repo.concat(gist).concat(blogs).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     populated.unshift({
       link: "https://github.com/creuserr",
