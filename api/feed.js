@@ -9,7 +9,7 @@ const rss = {
   item({ title, link, desc, date, img, stars, id }) {
     const thumb = img == null ? "" : `<enclosure url="${img}" length="0" type="image/png" />`
     let categ = stars == null || stars < 2 ? "" : `<category>${stars} &#9733;</category>`
-    if(categ.length == 0 && id != null) categ = `<category>Blog #${id}</category>`
+    if(categ.length == 0 && id != null) categ = `<category>Update #${id}</category>`
     const pubdate = date == null ? "" : `<pubDate>${date}</pubDate>`
     return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description>${pubdate + thumb + categ}</item>`
   }
