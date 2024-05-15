@@ -1,4 +1,4 @@
-<!-- Promotion date: April 30, 2024 to May 3, 2024; May 4, 2024 to May 6, 2024; May 11, 2024 -->
+<!-- Promotion date: April 30, 2024 to May 3, 2024; May 4, 2024 to May 6, 2024; May 11, 2024 to May 15, 2024
 <h3 align="center">New Update! &starf;</h3>
 
 > ```
@@ -6,6 +6,7 @@
 > ```
 > Have any idea? <br>
 > Does it make your head [rotating](https://github.com/creuserr/rotation)?
+-->
 
 <!-- Promotion date: May 9, 2024 to May 10, 2024
 > [!NOTE]
