@@ -1,14 +1,13 @@
 <!-- Promotion date: May 18, 2024 -->
 <h3 align="center">New Update! &starf;</h3>
-<p align="center">
-
+<div align="center">
+  
 | :package: Object: main <span align="right">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0.00KB</span> |
 |:-----|
 |`{ Empty }`|
 | <p align="right"><a href="https://creuserr.github.io/pocketdb-api/web/index.html"><kbd>:pencil2: Edit</kbd></a></p> |
 
-</p>
-
+</div>
 <!-- Promotion date: May 16, 2024 to May 18, 2024
 <h3 align="center">New Update! &starf;</h3>
 <p align="center"><a href="https://creuser.vercel.app"><img src="https://crebin.vercel.app/static/20240516_211607_837.png" width="300" alt="@creuser on albumoftheyear.org &bull; my music reviews"></a></p> -->
