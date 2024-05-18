@@ -4,7 +4,7 @@
   
 | :package: String: main <span align="right">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0.00KB</span> |
 |:-----|
-| <pre><code>" DO NOT EDIT "     </code></pre> |
+| <pre><code>" DO NOT EDIT " </code></pre> |
 | <p align="right"><a href="https://creuserr.github.io/pocketdb-api/web/index.html"><kbd>:pencil2: Edit</kbd></a></p> |
 
 </div>
