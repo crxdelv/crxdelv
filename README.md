@@ -5,7 +5,7 @@
 | &#x2442; &nbsp; Database <span align="right">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <kbd>1 -&cir;-</kbd></span> |
 |:-----|
 | `b76bf2c7dc5eb662ba2229d`<br>`75d0e32e333ba20b6ef257d`<br>`8a802e5af164e3` |
-| <p align="right"><a href="https://creuserr.github.io/pocketdb-api/web/index.html"><kbd>&bigoplus; Create</kbd></a> <a href="https://creuserr.github.io/pocketdb-api/web/index.html"><kbd>:door: Log out</kbd></a></p> |
+| <p align="right"><a href="https://creuserr.github.io/pocketdb-api/web/index.html"><kbd>&bigoplus; New data</kbd></a> <a href="https://creuserr.github.io/pocketdb-api/web/index.html"><kbd>:door: Log out</kbd></a></p> |
   
 | :package: String: main <span align="right">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <kbd>0.01KB</kbd></span> |
 |:-----|
