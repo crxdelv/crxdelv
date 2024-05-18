@@ -1,10 +1,13 @@
 <!-- Promotion date: May 18, 2024 -->
 <h3 align="center">New Update! &starf;</h3>
+<p align="center">
 
 | :package: Object: main <span align="right">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0.00KB</span> |
 |:-----|
 |`{ Empty }`|
 | <p align="right"><a href="https://creuserr.github.io/pocketdb-api/web/index.html"><kbd>:pencil2: Edit</kbd></a></p> |
+
+</p>
 
 <!-- Promotion date: May 16, 2024 to May 18, 2024
 <h3 align="center">New Update! &starf;</h3>
