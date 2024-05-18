@@ -2,9 +2,9 @@
 <h3 align="center">New Update! &starf;</h3>
 <div align="center">
   
-| :package: Object: main <span align="right">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0.00KB</span> |
+| :package: String: main <span align="right">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0.00KB</span> |
 |:-----|
-|`{ Empty }`|
+| <pre><code>" DO NOT EDIT "     </code></pre> |
 | <p align="right"><a href="https://creuserr.github.io/pocketdb-api/web/index.html"><kbd>:pencil2: Edit</kbd></a></p> |
 
 </div>
