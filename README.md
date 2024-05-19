@@ -39,7 +39,7 @@
 
 <p align="center">Future full-stack web developer :man_technologist:</p>
 
-<p align="center"><a href="https://github.com/creuserr/?tab=repositories"><img src="https://creuserr.vercel.app/badg" alt=""></a></p><br>
+<p align="center"><a href="https://github.com/creuserr/?tab=repositories"><img src="https://creuserr.vercel.app/badge" alt=""></a></p><br>
 
 <p align="center">
   <a href="https://dev.to/creuserr">Blogs</a>
