@@ -52,6 +52,7 @@
 
 <p align="center"><a href="https://github.com/creuserr">
   <img src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true" alt="" width="400"><br>
+  <img src="https://streak-stats.demolab.com?user=creuserr&hide_border=true" alt="" width="400"><br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=creuserr&layout=compact" alt="" width="400">
 </a></p>
 
