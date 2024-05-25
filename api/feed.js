@@ -35,7 +35,7 @@ const git = {
     const raw = await req.json()
     return raw.map(gist => {
       return {
-        link: gist.url,
+        link: gist.html_url,
         title: Object.keys(gist.files).join(" \u2022 "),
         date: gist.updated_at,
         desc: "@creuserr posted a new gist" + (gist.description == null ? "" : " | " + gist.description)
