@@ -40,7 +40,7 @@
 
 <p align="center">Future full-stack web developer :man_technologist:</p>
 
-<p align="center"><a href="https://github.com/creuserr/?tab=repositories"><img src="https://creuserr.vercel.app/badge" alt=""></a></p><br>
+<p align="center"><a href="https://github.com/creuserr/?tab=repositories"><!--img src="https://creuserr.vercel.app/badge" alt=""--></a></p><br>
 
 <p align="center">
   <a href="https://dev.to/creuserr">Blogs</a>
@@ -52,7 +52,7 @@
 
 <p align="center"><a href="https://github.com/creuserr">
   <img src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true" alt="" width="400"><br>
-  <img src="https://streak-stats.demolab.com?user=creuserr&hide_border=true" alt="" width="400">
+  <!--img src="https://streak-stats.demolab.com?user=creuserr&hide_border=true" alt="" width="400"-->
 </a></p>
 
 <p align="center"><a href="https://github.com/creuserr"><img src="https://skillicons.dev/icons?i=nodejs,py,java,php,bash,regex,html,css,js,lua,c,mysql&perline=6"></a></p>
