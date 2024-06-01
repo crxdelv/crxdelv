@@ -17,7 +17,7 @@ const rss = {
 
 const git = {
   async repo() {
-    const req = await fetch("https://creprox.vercel.app/https:/api.github.com/users/creuserr/repos")
+    const req = await fetch("https://api.github.com/users/creuserr/repos")
     const raw = await req.json()
     return raw.map(repo => {
       return {
@@ -31,7 +31,7 @@ const git = {
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
   async gist() {
-    const req = await fetch("https://creprox.vercel.app/https:/api.github.com/users/creuserr/gists")
+    const req = await fetch("https://api.github.com/users/creuserr/gists")
     const raw = await req.json()
     return raw.map(gist => {
       return {
@@ -43,7 +43,7 @@ const git = {
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   },
   async updates() {
-    const req = await fetch("https://crestatic.vercel.app/creuserr/crestatus/static/blogs.json")
+    const req = await fetch("https://raw.githubusercontent.com/creuserr/crestatus/main/static/blogs.json")
     const raw = await req.json()
     return raw.map(blog => {
       blog.img = `https://og-image-rest-generator.fly.dev/seo-banner?title=${encodeURI(blog.short)}&author=creuserr&head=${encodeURI(blog.title)}&writer=${encodeURI(blog.date)}`.replaceAll("&", "&amp;")
