@@ -37,7 +37,7 @@
 <br> -->
 
 <!-- Promotion date: June 1, 2024 -->
-<h3 align="center">New Update! &starf;</h3>
+<h3 align="center">&starf; New Project &starf;</h3>
 <p align="center"><a href="https://github.com/creuserr/cloudcre"><img src="https://cloudcre.vercel.app/ico/thumbnail.png" alt="cloudcre" width="500"></a></p>
 
 <h2 align="center">Delve Delos Santos Jr.</h2>
