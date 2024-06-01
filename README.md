@@ -36,6 +36,10 @@
 <p align="center"><a href="https://bit.ly/my-ttpd-song"><img src="https://my-ttpd-song.vercel.app/img/thumbnail.gif" width="200" alt="The Tortured Poets Department"></a></p>
 <br> -->
 
+<!-- Promotion date: June 1, 2024 -->
+<h3 align="center">New Update! &starf;</h3>
+<p align="center"><a href="https://github.com/creuserr/cloudcre"><img src="https://cloudcre.vercel.app/ico/thumbnail.png" alt="cloudcre" width="500"></a></p>
+
 <h2 align="center">Delve Delos Santos Jr.</h2>
 
 <p align="center">Future full-stack web developer :man_technologist:</p>
