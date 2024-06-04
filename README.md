@@ -1,46 +1,4 @@
-<!-- Promotion date: May 18, 2024 to May 19, 2024
-<h3 align="center">New Update! &starf;</h3>
-<div align="center">
-  
-| :package: String: main <span align="right">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <kbd>0.01KB</kbd></span> |
-|:-----|
-| <pre><code>" DO NOT EDIT " </code></pre> |
-| <p align="right"><a href="https://creuserr.github.io/pocketdb-api/web/index.html"><kbd>:pencil2: Edit</kbd></a></p> |
-
-</div><br> -->
-
-<!-- Promotion date: May 16, 2024 to May 18, 2024
-<h3 align="center">New Update! &starf;</h3>
-<p align="center"><a href="https://creuser.vercel.app"><img src="https://crebin.vercel.app/static/20240516_211607_837.png" width="300" alt="@creuser on albumoftheyear.org &bull; my music reviews"></a></p> -->
-
-<!-- Promotion date: April 30, 2024 to May 3, 2024; May 4, 2024 to May 6, 2024; May 11, 2024 to May 15, 2024
-<h3 align="center">New Update! &starf;</h3>
-
-> ```
-> KHTML, like Gecko
-> ```
-> Have any idea? <br>
-> Does it make your head [rotating](https://github.com/creuserr/rotation)?
--->
-
-<!-- Promotion date: May 9, 2024 to May 10, 2024
-> [!NOTE]
-> You're probably here because of my skills...
-> 
-> [Click here](https://github.com/dlvdls18/DLEditor/blob/main/dl-editor.js) and [here](https://github.com/creuserr/rotation/blob/main/dist/rotation.js) to view my favorite written codes. :wink:
--->
-
-<!-- Promotion date: April 21, 2024 to April 27, 2024; May 3, 2024 to May 4, 2024; May 9, 2024 to May 10, 2024
-
-<h3 align="center">New Update! &starf;</h3>
-<p align="center"><a href="https://bit.ly/my-ttpd-song"><img src="https://my-ttpd-song.vercel.app/img/thumbnail.gif" width="200" alt="The Tortured Poets Department"></a></p>
-<br> -->
-
-<!-- Promotion date: June 1, 2024 -->
-<h3 align="center">&starf; New Project &starf;</h3>
-<p align="center"><a href="https://github.com/creuserr/cloudcre"><img src="https://cloudcre.vercel.app/ico/thumbnail.png" alt="cloudcre" width="500"></a></p>
-
-<h2 align="center">Delve Delos Santos Jr.</h2>
+<h3 align="center">Delve Delos Santos Jr.</h3>
 
 <p align="center">Future full-stack web developer :man_technologist:</p>
 
