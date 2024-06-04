@@ -40,7 +40,7 @@ const git = {
         desc: "@creuserr posted a new gist" + (gist.description == null ? "" : " | " + gist.description)
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  }
+  },
   async all() {
     const repo = await this.repo()
     const gist = await this.gist()
