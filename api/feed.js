@@ -6,10 +6,9 @@ const rss = {
     const suffix = `</channel></rss>`
     return prefix + content + suffix
   },
-  item({ title, link, desc, date, img, stars, id }) {
+  item({ title, link, desc, date, img, stars }) {
     const thumb = img == null ? "" : `<enclosure url="${img}" length="0" type="image/png" />`
     let categ = stars == null || stars < 2 ? "" : `<category>${stars} &#9733;</category>`
-    if(categ.length == 0 && id != null) categ = `<category>Update #${id}</category>`
     const pubdate = date == null ? "" : `<pubDate>${date}</pubDate>`
     return `<item><title><![CDATA[ ${title} ]]></title><link>${link}</link><description><![CDATA[ ${desc} ]]></description>${pubdate + thumb + categ}</item>`
   }
@@ -41,21 +40,11 @@ const git = {
         desc: "@creuserr posted a new gist" + (gist.description == null ? "" : " | " + gist.description)
       }
     }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  },
-  async updates() {
-    const req = await fetch("https://raw.githubusercontent.com/creuserr/crestatus/main/static/blogs.json")
-    const raw = await req.json()
-    return raw.map(blog => {
-      blog.img = `https://og-image-rest-generator.fly.dev/seo-banner?title=${encodeURI(blog.short)}&author=creuserr&head=${encodeURI(blog.title)}&writer=${encodeURI(blog.date)}`.replaceAll("&", "&amp;")
-      blog.desc = "@creuserr posted a new blog | " + blog.desc
-      return blog
-    })
-  },
+  }
   async all() {
     const repo = await this.repo()
     const gist = await this.gist()
-    const blogs = await this.updates()
-    let populated = repo.concat(gist).concat(blogs).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    let populated = repo.concat(gist).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     populated.unshift({
       link: "https://github.com/creuserr",
       title: "@creuserr",
