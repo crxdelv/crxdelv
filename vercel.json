@@ -7,6 +7,9 @@
   }, {
     "src": "api/badge.js",
     "use": "@vercel/node"
+  }, {
+    "src": "api/redirect.js",
+    "use": "@vercel/node"
   }],
   "rewrites": [{
     "source": "/feed",
@@ -14,6 +17,9 @@
   }, {
     "source": "/badge",
     "destination": "api/badge.js"
+  }, {
+    "source": "/",
+    "destination": "api/redirect.js"
   }],
   "headers": [{
     "source": "api/feed.js",
@@ -23,6 +29,13 @@
     }]
   }, {
     "source": "api/badge.js",
+    "headers": [{
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    }]
+  }, {
+    {
+    "source": "api/redirect.js",
     "headers": [{
       "key": "Access-Control-Allow-Origin",
       "value": "*"
