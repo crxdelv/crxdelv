@@ -17,9 +17,6 @@
   }, {
     "source": "/badge",
     "destination": "api/badge.js"
-  }, {
-    "source": "/\?fbclid=(.*)",
-    "destination": "api/redirect.js"
   }],
   "headers": [{
     "source": "api/feed.js",
@@ -29,12 +26,6 @@
     }]
   }, {
     "source": "api/badge.js",
-    "headers": [{
-      "key": "Access-Control-Allow-Origin",
-      "value": "*"
-    }]
-  }, {
-    "source": "api/redirect.js",
     "headers": [{
       "key": "Access-Control-Allow-Origin",
       "value": "*"
