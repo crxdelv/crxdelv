@@ -18,7 +18,7 @@
     "source": "/badge",
     "destination": "api/badge.js"
   }, {
-    "source": "(.*)",
+    "source": "/(.*)",
     "destination": "api/redirect.js"
   }],
   "headers": [{
@@ -34,7 +34,6 @@
       "value": "*"
     }]
   }, {
-    {
     "source": "api/redirect.js",
     "headers": [{
       "key": "Access-Control-Allow-Origin",
