@@ -47,9 +47,8 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 
 **Web applications:**
 
-- Websites :globe_with_meridians:
 - Library previews :books:
-- FOSS applications :fallen_leaf:
+- FOSS websites :fallen_leaf:
 
 <br>
 
