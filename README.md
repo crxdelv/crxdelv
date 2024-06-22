@@ -35,8 +35,9 @@
 ### :beginner: Currently Using
 Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 
-**CI/CD:** Github, Vercel <br>
-**Backend:** Firebase
+| CI/CD :floppy_disk: | Backend :fire: |
+|:--------------:|:--------:|
+| GitHub, Vercel | Firebase |
 
 ### :beginner: Currently Doing
 **Serverless applications:**
