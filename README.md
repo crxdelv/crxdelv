@@ -35,14 +35,21 @@
 ### :beginner: Currently Using
 Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 
-**IDE:** Code Editor *by rhythm software*<br>
 **CI/CD:** Github, Vercel <br>
 **Backend:** Firebase
 
 ### :beginner: Currently Doing
-**Serverless NodeJS functions:** Dynamic plain text generator, Web crawlers, RESTful APIs
+**Serverless applications:**
 
-**Web applications:** Websites, VanillaJS libraries
+- Web crawlers/scrapers
+- REST APIs
+- Dynamic file generators (text-based)
+
+**Web applications:**
+
+- Websites
+- Library previews
+- FOSS applications
 
 <br>
 
