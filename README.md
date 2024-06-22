@@ -23,9 +23,8 @@
 
 **Concepts:**
 - [ ] Kotlin-powered applications
-- [ ] Advanced database structures
-- [x] Non-textual responsive APIs
-- [ ] Containers (docker)
+- [x] Advanced database structures
+- [x] Containers (docker)
 - [ ] Neural networks
 
 **Languages:**
