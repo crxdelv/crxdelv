@@ -41,15 +41,15 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 ### :beginner: Currently Doing
 **Serverless applications:**
 
-- Web crawlers/scrapers
-- REST APIs
-- Dynamic file generators (text-based)
+- Web crawlers/scrapers :spider:
+- REST APIs :fax:
+- Dynamic file generators (text-based) :open_file_folder:
 
 **Web applications:**
 
-- Websites
-- Library previews
-- FOSS applications
+- Websites :globe_with_meridians:
+- Library previews :books:
+- FOSS applications :fallen_leaf:
 
 <br>
 
