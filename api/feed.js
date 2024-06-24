@@ -75,6 +75,19 @@ module.exports = async (req, res) => {
 }
 */
 
+const escapeXml = (unsafe) => {
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '"': return '&quot;';
+      case "'": return '&apos;';
+      default: return c;
+    }
+  });
+};
+
 const rss = {
   write(content, latency) {
     const title = "cre's feed";
@@ -87,7 +100,7 @@ const rss = {
     const thumb = img ? `<enclosure url="${img}" length="0" type="image/png" />` : "";
     const categ = stars && stars >= 2 ? `<category>${stars} &#9733;</category>` : "";
     const pubdate = date ? `<pubDate>${date}</pubDate>` : "";
-    return `<item><title><![CDATA[${title}]]></title><link>${link}</link><description><![CDATA[${desc}]]></description>${pubdate}${thumb}${categ}</item>`;
+    return `<item><title><![CDATA[${escapeXml(title)}]]></title><link>${escapeXml(link)}</link><description><![CDATA[${escapeXml(desc)}]]></description>${pubdate}${thumb}${categ}</item>`;
   }
 };
 
