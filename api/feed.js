@@ -28,7 +28,7 @@ const git = {
         badge: repo.stargazers_count + " &#9733;",
         sorting: new Date(repo.updated_at).getTime()
       };
-    }).sort((a, b) => a.sorting - b.sorting);
+    }).sort((a, b) => b.sorting - a.sorting);
   },
   async retrieve() {
     let repo = await this.repo();
