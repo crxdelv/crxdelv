@@ -7,7 +7,7 @@ const rss = {
     return prefix + content + suffix;
   },
   item(data) {
-    const img = data.img ? `<enclosure url="${img}" length="0" type="image/png" />` : "";
+    const img = data.img ? `<enclosure url="${data.img}" length="0" type="image/png" />` : "";
     const badge = data.badge ? `<category>${data.badge}</category>` : "";
     const date = `<pubDate>${data.date}</pubDate>`;
     return `<item><title><![CDATA[ ${data.title} ]]></title><link>${data.link}</link><description><![CDATA[ ${data.desc} ]]></description>${date + img + badge}</item>`;
