@@ -25,6 +25,8 @@
 
 <p align="center"><a href="https://github.com/creuserr"><img src="https://skillicons.dev/icons?i=nodejs,py,java,php,bash,regex,html,css,js,lua,c,mysql&perline=6"></a></p>
 
+<p align="center"><a href="https://github.com/creuserr"><img src="https://komarev.com/ghpvc/?username=creuserr&style=for-the-badge" alt=""></a></p>
+
 ### :beginner: Currently Learning:
 
 **Concepts:**
@@ -39,7 +41,6 @@
 <a href="https://github.com/creuserr"><img src="https://skillicons.dev/icons?i=kotlin,swift,rust,go,react,graphql" alt=""></a>
 
 ### :beginner: Currently Using
-Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 
 | CI/CD :floppy_disk: | Backend :fire: |
 |:--------------:|:--------:|
@@ -50,7 +51,7 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 
 - Web crawlers/scrapers :spider:
 - REST APIs :fax:
-- Cron-based automations :toolbox:
+- Cron-based automations :robot:
 
 **Web applications:**
 
@@ -58,11 +59,4 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 - FOSS websites :fallen_leaf:
 
 <br>
-
-> [!NOTE]
-> Compiled codebases are not desired for me at the moment, due to the lack of workspace.
-> Nevertheless, I can still deploy serverless functions *limited to python, php, and nodejs.*
-
-<p align="center"><a href="https://github.com/creuserr"><img src="https://komarev.com/ghpvc/?username=creuserr&style=for-the-badge" alt=""></a></p>
-
-<!-- <p align="center"><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"><img src="https://img.shields.io/badge/i_fucking_hate-cors-coral?style=for-the-badge" alt=""></a></p> -->
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/403af6cc-32fd-4026-8fb5-ae523bf899c3" width="300">
