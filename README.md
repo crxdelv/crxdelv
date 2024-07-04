@@ -45,6 +45,7 @@ Just a mobile phone. Android 13, 4gb RAM. **NO ROOT**
 - Web crawlers/scrapers :spider:
 - REST APIs :fax:
 - Dynamic file generators (text-based) :open_file_folder:
+- Automated applications (cron-based) :toolbox:
 
 **Web applications:**
 
