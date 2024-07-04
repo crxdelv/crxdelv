@@ -22,6 +22,7 @@
 ### :beginner: Currently Learning:
 
 **Concepts:**
+- [x] Automated applications
 - [ ] Kotlin-powered applications
 - [x] Advanced database structures
 - [x] Containers (docker)
