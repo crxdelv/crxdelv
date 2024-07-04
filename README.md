@@ -28,11 +28,9 @@
 ### :beginner: Currently Learning:
 
 **Concepts:**
-- [x] Automated applications
-- [ ] Kotlin-powered applications
-- [x] Advanced database structures
-- [x] Containers (docker)
-- [ ] Neural networks
+- :blue_book: Machine learnings
+- :orange_book: Low-level systems
+- :green_book: Cybersecurity
 
 **Languages:**
 
