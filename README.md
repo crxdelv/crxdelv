@@ -13,8 +13,14 @@
 </p>
 
 <p align="center"><a href="https://github.com/creuserr">
-  <img src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true&hide_border=true&theme=dark" alt="" width="400"><br>
-  <img src="https://streak-stats.demolab.com?user=creuserr&hide_border=true&fire=6bdf85&ring=dadada&theme=dark&currStreakLabel=dadada" alt="" width="400">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true&hide_border=true&theme=github_dark">
+    <img alt="" width="400" src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true&hide_border=true&theme=light">
+  </picture> <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=creuserr&hide_border=true&theme=github-dark-blue">
+    <img alt="" width="400" src="https://streak-stats.demolab.com/?user=creuserr&hide_border=true&theme=meta-light">
+  </picture>
 </a></p>
 
 <p align="center"><a href="https://github.com/creuserr"><img src="https://skillicons.dev/icons?i=nodejs,py,java,php,bash,regex,html,css,js,lua,c,mysql&perline=6"></a></p>
