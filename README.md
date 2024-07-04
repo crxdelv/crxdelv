@@ -15,11 +15,11 @@
 <p align="center"><a href="https://github.com/creuserr">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true&theme=github_dark&hide_border=true">
-    <img alt="" width="400" src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true&theme=light">
+    <img alt="" width="400" src="https://github-readme-stats.vercel.app/api?username=creuserr&show_icons=true&theme=light&border=lightgray">
   </picture> <br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=creuserr&theme=github-dark-blue&hide_border=true">
-    <img alt="" width="400" src="https://streak-stats.demolab.com/?user=creuserr&theme=meta-light">
+    <img alt="" width="400" src="https://streak-stats.demolab.com/?user=creuserr&theme=meta-light&border=lightgray&stroke=lightgray">
   </picture>
 </a></p>
 
