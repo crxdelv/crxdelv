@@ -6,7 +6,7 @@ module.exports = async (req, res) => {
   raw = await f.json()
   count += raw.length
   res.setHeader("Access-Control-Allow-Origin", "*")
-  res.setHeader("Location", `https://img.shields.io/static/v1?label=Repositories&message=${count}&color=6bdf85&style=for-the-badge&logo=github`)
+  res.setHeader("Location", `https://img.shields.io/static/v1?label=Repositories&message=${count}&color=blue&style=for-the-badge&logo=github`)
   res.statusCode = 302
   res.end()
 }
