@@ -29,7 +29,7 @@
 
 **Concepts:**
 - :blue_book: Machine learnings
-- :orange_book: Low-level systems
+- :orange_book: Data science
 - :green_book: Cybersecurity
 
 **Languages:**
