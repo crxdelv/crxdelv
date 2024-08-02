@@ -1,6 +1,6 @@
 <h3 align="center">Delve Delos Santos Jr.</h3>
 
-<p align="center">Future full-stack web developer :man_technologist:</p>
+<p align="center">Full-stack software developer :nerd_face::point_up:</p>
 
 <p align="center"><a href="https://github.com/creuserr/?tab=repositories"><img src="https://creuserr.vercel.app/badge" alt=""></a></p><br>
 
