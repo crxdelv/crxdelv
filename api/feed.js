@@ -1,8 +1,8 @@
 const rss = {
   write(content) {
-    const title = "cre's feed";
-    const desc = "cre's github updates (@creuserr)";
-    const prefix = `<?xml version="1.0" encoding="UTF-8" ?>\n<rss><channel><title><![CDATA[ ${title} ]]></title><link>https://github.com/creuserr</link><description><![CDATA[ ${desc} ]]></description>`;
+    const title = "delv's feed";
+    const desc = "delv's github updates (@crxdelv)";
+    const prefix = `<?xml version="1.0" encoding="UTF-8" ?>\n<rss><channel><title><![CDATA[ ${title} ]]></title><link>https://github.com/crxdelv</link><description><![CDATA[ ${desc} ]]></description>`;
     const suffix = `</channel></rss>`;
     return prefix + content + suffix;
   },
@@ -16,15 +16,15 @@ const rss = {
 
 const git = {
   async repo() {
-    const req = await fetch("https://api.github.com/users/creuserr/repos");
+    const req = await fetch("https://api.github.com/users/crxdelv/repos");
     const raw = await req.json();
     return raw.map(repo => {
       return {
         link: repo.html_url,
         title: repo.full_name,
         date: repo.updated_at,
-        desc: "@creuserr created a new repository" + (repo.description == null ? "" : " | " + repo.description),
-        img: `https://og-theta.vercel.app/api/general?siteName=${encodeURIComponent(repo.full_name)}&amp;description=${encodeURIComponent(repo.description || "@creuserr created a new repository")}&amp;theme=dark&amp;logo=https://crebin.vercel.app/static/avatar.png&amp;logoWidth=120`,
+        desc: "@crxdelv created a new repository" + (repo.description == null ? "" : " | " + repo.description),
+        img: `https://og-theta.vercel.app/api/general?siteName=${encodeURIComponent(repo.full_name)}&amp;description=${encodeURIComponent(repo.description || "@crxdelv created a new repository")}&amp;theme=dark&amp;logo=https://crebin.vercel.app/static/avatar.png&amp;logoWidth=120`,
         badge: repo.stargazers_count + " &#9733;",
         sorting: new Date(repo.updated_at).getTime()
       };
@@ -33,8 +33,8 @@ const git = {
   async retrieve() {
     let repo = await this.repo();
     repo.unshift({
-      link: "https://github.com/creuserr",
-      title: "@creuserr",
+      link: "https://github.com/crxdelv",
+      title: "@crxdelv",
       desc: "15 | my projects about programming",
       img: "https://avatars.githubusercontent.com/u/151720755?v=4"
     });
@@ -55,7 +55,7 @@ module.exports = async (req, res) => {
       date: new Date().toString(),
       title: "500 Internal Error",
       desc: `Failed to generate | ${e}`,
-      link: "https://github.com/creuserr"
+      link: "https://github.com/crxdelv"
     })));
   }
 }
