@@ -2,12 +2,12 @@
 
 <p align="center">Future full-stack software developer :man_technologist:</p>
 
-<p align="center"><a href="https://github.com/crxdelv/?tab=repositories"><img src="https://crxdelv.vercel.app/badge" alt=""></a></p><br>
+<p align="center"><a href="https://github.com/crxdelv/?tab=repositories"><img src="https://cruserr.vercel.app/badge" alt=""></a></p><br>
 
 <p align="center">
   <a href="https://dev.to/crxdelv">Blogs</a>
   &nbsp; &sdot; &nbsp;
-  <a href="https://crxdelv.vercel.app/feed">RSS Feed</a>
+  <a href="https://creuserr.vercel.app/feed">RSS Feed</a>
   &nbsp; &sdot; &nbsp;
   <a href="https://gist.github.com/crxdelv">Gists</a>
 </p>
