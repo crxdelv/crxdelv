@@ -5,7 +5,7 @@
 <p align="center"><a href="https://github.com/crxdelv/?tab=repositories"><img src="https://creuserr.vercel.app/badge" alt=""></a></p><br>
 
 <p align="center">
-  <a href="https://dev.to/crxdelv">Blogs</a>
+  <a href="https://dev.to/creuserr">Blogs</a>
   &nbsp; &sdot; &nbsp;
   <a href="https://creuserr.vercel.app/feed">RSS Feed</a>
   &nbsp; &sdot; &nbsp;
