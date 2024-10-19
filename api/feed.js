@@ -1,7 +1,7 @@
 const rss = {
   write(content) {
-    const title = "delv's feed";
-    const desc = "delv's github updates (@crxdelv)";
+    const title = "crxdelv feed";
+    const desc = "crxdelv github updates (@crxdelv)";
     const prefix = `<?xml version="1.0" encoding="UTF-8" ?>\n<rss><channel><title><![CDATA[ ${title} ]]></title><link>https://github.com/crxdelv</link><description><![CDATA[ ${desc} ]]></description>`;
     const suffix = `</channel></rss>`;
     return prefix + content + suffix;
@@ -9,7 +9,7 @@ const rss = {
   item(data) {
     const img = data.img ? `<enclosure url="${data.img}" length="0" type="image/png" />` : "";
     const badge = data.badge ? `<category>${data.badge}</category>` : "";
-    const date = `<pubDate>${data.date}</pubDate>`;
+    const date = data.date ? `<pubDate>${data.date}</pubDate>` : "";
     return `<item><title><![CDATA[ ${data.title} ]]></title><link>${data.link}</link><description><![CDATA[ ${data.desc} ]]></description>${date + img + badge}</item>`;
   }
 }
@@ -35,7 +35,7 @@ const git = {
     repo.unshift({
       link: "https://github.com/crxdelv",
       title: "@crxdelv",
-      desc: "15 | my projects about programming",
+      desc: "inactive | my projects about programming",
       img: "https://avatars.githubusercontent.com/u/151720755?v=4"
     });
     return repo;
